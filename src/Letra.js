@@ -28,7 +28,7 @@ export default function Letra(props){
     return (
         
         <>
-            <button onClick={() => tem(props.letra)} disabled={props.estado || props.jaTem.includes(props.letra)} > {props.letra}</button>  
+            <button data-test="letter" onClick={() => tem(props.letra)} disabled={props.estado || props.jaTem.includes(props.letra)} > {props.letra}</button>  
         </>
     )
 }

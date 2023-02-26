@@ -39,9 +39,9 @@ export default function Jogo(props){
     
     return (
         <div className="imgebtn">
-            <img src={arrayErros[props.erros]} alt="Minha Figura"></img>
-            <div className="escPalavra" onClick={sortearPalavra}>Escolher palavra</div>
-            <div className={props.cor}>{props.escondido}</div>
+            <img data-test="game-image" src={arrayErros[props.erros]} alt="Minha Figura"></img>
+            <div data-test="choose-word" className="escPalavra" onClick={sortearPalavra}>Escolher palavra</div>
+            <div data-test="word" className={props.cor}>{props.escondido}</div>
         </div>
     )
 }
