@@ -1,0 +1,79 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 400px;
+    height: 466px;
+    margin-top: 59px;
+    margin-left: 38px;
+}
+button{
+    width: 40px;
+    height: 40px;
+    color: #39739D;
+    background-color: #E1ECF4;
+    font-weight: 700;
+    font-size: 16px;
+    border-color: #7AA7C7;
+    margin-left: 14px;
+    
+}
+.letras{
+    height: 100px;
+    width:  710px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 152px;
+    
+}
+.divLetras{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgebtn{
+    display: flex;
+    justify-content: space-between;    
+}
+.escPalavra{
+    width: 200px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #27AE60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor:pointer;
+    margin-top: 89px;
+    margin-right: 53px;
+}
+:disabled{
+    color: #798A9F;
+    background-color: #9FAAB5;
+    border-color: #7AA7C7;
+}
+.palavrasort{
+    
+    height: 70px;
+    font-size: 60px;
+    position: absolute;
+    margin-right: 53px;
+    top: 400px;
+    right:  0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.ganhou{
+    color:#27AE60;
+}
+.perdeu{
+    color:#FF0000;
+}
